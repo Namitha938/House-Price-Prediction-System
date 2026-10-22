@@ -1,0 +1,83 @@
+{
+  "model_name": "Gradient Boosting Regressor",
+  "trained_at": "2026-10-10T12:27:01.951745+00:00",
+  "evaluation_metric": "RMSE",
+  "validation_metrics": {
+    "mae": 16710.31,
+    "rmse": 25405.01,
+    "r2": 0.9159
+  },
+  "candidate_comparisons": {
+    "DummyRegressor (Baseline)": {
+      "mae": 59568.25,
+      "rmse": 88667.17,
+      "r2": -0.025
+    },
+    "Ridge Regression": {
+      "mae": 21339.41,
+      "rmse": 35126.32,
+      "r2": 0.8391
+    },
+    "Random Forest Regressor": {
+      "mae": 18044.96,
+      "rmse": 28041.69,
+      "r2": 0.8975
+    },
+    "Gradient Boosting Regressor": {
+      "mae": 16710.31,
+      "rmse": 25405.01,
+      "r2": 0.9159
+    }
+  },
+  "features": {
+    "all": [
+      "OverallQual",
+      "GrLivArea",
+      "TotalBsmtSF",
+      "1stFlrSF",
+      "FullBath",
+      "HalfBath",
+      "BedroomAbvGr",
+      "TotRmsAbvGrd",
+      "Fireplaces",
+      "GarageCars",
+      "GarageArea",
+      "YearBuilt",
+      "YearRemodAdd",
+      "LotArea",
+      "Neighborhood",
+      "BldgType",
+      "HouseStyle",
+      "CentralAir"
+    ],
+    "numerical": [
+      "OverallQual",
+      "GrLivArea",
+      "TotalBsmtSF",
+      "1stFlrSF",
+      "FullBath",
+      "HalfBath",
+      "BedroomAbvGr",
+      "TotRmsAbvGrd",
+      "Fireplaces",
+      "GarageCars",
+      "GarageArea",
+      "YearBuilt",
+      "YearRemodAdd",
+      "LotArea"
+    ],
+    "categorical": [
+      "Neighborhood",
+      "BldgType",
+      "HouseStyle",
+      "CentralAir"
+    ]
+  },
+  "dataset_info": {
+    "source": "Kaggle: House Prices - Advanced Regression Techniques",
+    "samples_total": 1460,
+    "samples_train": 1168,
+    "samples_val": 292
+  },
+  "version": "1.0.0"
+}

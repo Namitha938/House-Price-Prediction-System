@@ -1,0 +1,77 @@
+{
+  "total_samples": 1460,
+  "features_count": 18,
+  "numerical_features": [
+    "OverallQual",
+    "GrLivArea",
+    "TotalBsmtSF",
+    "1stFlrSF",
+    "FullBath",
+    "HalfBath",
+    "BedroomAbvGr",
+    "TotRmsAbvGrd",
+    "Fireplaces",
+    "GarageCars",
+    "GarageArea",
+    "YearBuilt",
+    "YearRemodAdd",
+    "LotArea"
+  ],
+  "categorical_features": [
+    "Neighborhood",
+    "BldgType",
+    "HouseStyle",
+    "CentralAir"
+  ],
+  "target_stats": {
+    "min": 34900.0,
+    "max": 755000.0,
+    "mean": 180921.2,
+    "median": 163000.0,
+    "std": 79442.5
+  },
+  "neighborhoods": [
+    "Blmngtn",
+    "Blueste",
+    "BrDale",
+    "BrkSide",
+    "ClearCr",
+    "CollgCr",
+    "Crawfor",
+    "Edwards",
+    "Gilbert",
+    "IDOTRR",
+    "MeadowV",
+    "Mitchel",
+    "NAmes",
+    "NPkVill",
+    "NWAmes",
+    "NoRidge",
+    "NridgHt",
+    "OldTown",
+    "SWISU",
+    "Sawyer",
+    "SawyerW",
+    "Somerst",
+    "StoneBr",
+    "Timber",
+    "Veenker"
+  ],
+  "bldg_types": [
+    "1Fam",
+    "2fmCon",
+    "Duplex",
+    "Twnhs",
+    "TwnhsE"
+  ],
+  "house_styles": [
+    "1.5Fin",
+    "1.5Unf",
+    "1Story",
+    "2.5Fin",
+    "2.5Unf",
+    "2Story",
+    "SFoyer",
+    "SLvl"
+  ]
+}
